@@ -123,7 +123,6 @@ const PORT = process.env.PORT || 8080;
 
 app.get('/healthz', (_req,res) => res.send('ok'));
 const port = Number(process.env.PORT) || 8080;
-app.listen(port, '0.0.0.0', () => console.log('🚀 Server running on http://localhost:' + port));
 
 
 // Connect to MongoDB
