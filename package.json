@@ -7,7 +7,7 @@
     "start": "node server.js",
     "dev": "nodemon server.js",
     "build": "echo 'Build completed'",
-      "preinstall": "node -e \"const fs=require('fs');fs.existsSync('./prebuild.js') && require('./prebuild')()\""
+      "preinstall": "node -e \"const fs=require('fs');fs.existsSync('./prebuild.js') && require('./prebuild')()\"",
     "postinstall": "echo 'Installation completed - July 11'"
   },
   "dependencies": {
